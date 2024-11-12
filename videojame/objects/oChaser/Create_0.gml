@@ -22,3 +22,5 @@ vis_dir = 0;
 
 x_calc = 0;
 y_calc = 0;
+
+dmg = 1;

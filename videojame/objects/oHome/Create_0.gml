@@ -24,3 +24,14 @@ for (var i = 0; i < weapon_list_size; i++)
 	weapon_id.parent = id;
 }
 		
+shield_health = 10;
+shield = instance_create_depth(x,y,depth-10,oShield);
+
+shield_radius = 0;
+shield_radius_max = 64;
+
+with shield
+{
+	hp = other.shield_health;
+	owner = other.id; // so the shield knows who owns it.
+}

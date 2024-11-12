@@ -1,3 +1,5 @@
+hp = 10;
+
 accel = 1
 decel = 9
 
@@ -17,8 +19,9 @@ imputmag = 0
 
 max_spd = 6
 
-
 shoot_del = 0
 shoot_del_max = 8
 
 accuracy = 6;
+
+flash = 0;

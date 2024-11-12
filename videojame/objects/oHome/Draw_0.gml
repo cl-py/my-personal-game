@@ -7,3 +7,6 @@ if flash > 0
 }
 
 flash = approach(flash, 0, 1)
+
+
+draw_circle(x,y,shield_radius,!(shield.flash>0));
